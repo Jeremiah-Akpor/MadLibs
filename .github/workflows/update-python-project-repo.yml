@@ -19,7 +19,7 @@ jobs:
         git config --global user.email 'action@github.com'
         git clone https://github.com/Jeremiah-Akpor/Python_Projects.git
         cd Python_Projects
-        git submodule update --remote MadLibs  # Replace 'madlibs' with the correct submodule path if different
+        git submodule update --init --recursive  # Initialize and update submodule
         git add MadLibs  # Replace 'madlibs' with the correct submodule path if different
         git commit -m "Auto-update MadLibs submodule"
         git push https://${{secrets.PYTHON_PROJECT_TOKEN}}@github.com/Jeremiah-Akpor/Python_Projects.git
