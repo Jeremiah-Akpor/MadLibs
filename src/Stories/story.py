@@ -7,6 +7,7 @@ class Story:
     Attributes
     ----------
     title : str
+
         The title of the Mad Libs story.
     Paragraph1 : str
         The 1st paragraph of the story.
@@ -19,7 +20,9 @@ class Story:
 
     Methods
     -------
-    __init__(self, title, pg1, pg2, input_pg1, input_pg2):
+    __init__(self, title, num_of_paragraph):
+    set_paragraph(self, key, new_paragraph): str
+    set_input(self, key): list
     get_title(self): str
     get_paragraph(num): str
     get_input(num): list
@@ -53,6 +56,38 @@ class Story:
         self.has_paragraph = False
         self.has_input = False
 
+    def set_paragraph(self, key, new_paragraph):
+        """This function sets or updates a paragraph in the story.
+
+        Parameters:
+            key (int): to identify the paragraph
+            new_paragraph (str): content of new paragraph"""
+        if not isinstance(key, int):
+            raise TypeError("key should be an integer")
+        if not isinstance(new_paragraph, str):
+            raise TypeError("new_paragraph should be a string")
+        if key not in self.paragraphs and \
+           (key > self.num_of_paragraph or key < 1):
+            raise StoryException(
+                f"The number of paragraphs is {self.num_of_paragraph}")
+        self.paragraphs[key] = new_paragraph
+        self.has_paragraph = True
+
+    def set_input(self, key, new_inputs):
+        """set or update the user input for the paragraph in the story.
+        parameters:
+            key(int): to identify the paragraph
+            new_inputs(list): list of user input for the paragraph
+        """
+        if key not in self.paragraphs:
+            raise StoryException(
+                f"Paragraph '{key}' doesn't exist."
+                f"Please set the paragraph first")
+        if key not in self.input_of_paragraph:
+            self.input_of_paragraph[key] = []
+        self.input_of_paragraph[key] = new_inputs
+        self.has_input = True
+
     def get_title(self):
         """Return the title of the story."""
         return self.title
@@ -60,12 +95,10 @@ class Story:
     def get_paragraph(self, num):
         """Return the paragraph of the story."""
         if not self.has_paragraph:
+            raise StoryException("The story does not contain any paragraph")
+        if num not in self.paragraphs:
             raise StoryException(
-                "The story does not contain any paragraph"
-            )
-        if num > self.num_of_paragraph | num <= 0:
-            raise StoryException(
-                f'the number of paragraph is {self.num_of_paragraph}')
+                f"the number of paragraph is {self.num_of_paragraph}")
         return self.paragraphs[num]
 
     def get_inputs(self, num):
@@ -73,9 +106,8 @@ class Story:
         on the paragraph in the story"""
         if not self.has_input:
             raise StoryException(
-                "The paragraphs does not contain any user input"
-            )
-        if num > self.num_of_paragraph | num <= 0:
+                "The paragraphs does not contain any user input")
+        if num not in self.paragraphs:
             raise StoryException(
-                f'the number of paragraph is {self.num_of_paragraph}')
+                f"the number of paragraph is {self.num_of_paragraph}")
         return self.input_of_paragraph[num]
