@@ -32,7 +32,7 @@ This is a simple Mad Libs game implemented in Python. The game allows users to f
 - Python 3.x
 - KivyMD for the GUI (Coming Soon)
 
-## Colaberators
+## Collaborators
 - Franklin-Ikenna-Okeke: https://github.com/Franklin-Ikenna-Okeke
 
 

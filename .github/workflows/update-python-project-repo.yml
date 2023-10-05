@@ -1,1 +1,26 @@
+name: Update Python Project Repository
+
+on:
+  push:
+    branches:
+      - main  # or your default branch
+
+jobs:
+  update-master-repo:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout MadLibs repo
+      uses: actions/checkout@v2
+
+    - name: Update Master Repository
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        git clone https://github.com/Jeremiah-Akpor/Python_Projects.git
+        cd master-python-projects
+        git submodule update --remote MadLibs  # Replace 'madlibs' with the correct submodule path if different
+        git add MadLibs  # Replace 'madlibs' with the correct submodule path if different
+        git commit -m "Auto-update MadLibs submodule"
+        git push https://${{secrets.PYTHON_PROJECT_TOKEN}}@github.com/Jeremiah-Akpor/Python_Projects.git
 
