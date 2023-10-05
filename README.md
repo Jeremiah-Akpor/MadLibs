@@ -15,7 +15,7 @@ This is a simple Mad Libs game implemented in Python. The game allows users to f
 
 1. Clone the project:
    ```
-     git clone https://github.com/Jeremiah-Akpor/Python_Projects.git Madlibs
+     git clone https://github.com/Jeremiah-Akpor/MadLibs.git
    ```
 2. Install Python 3.x if not already installed
 3. Run the main Python file to start the game
