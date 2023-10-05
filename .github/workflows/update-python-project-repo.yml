@@ -18,7 +18,7 @@ jobs:
         git config --global user.name 'GitHub Action'
         git config --global user.email 'action@github.com'
         git clone https://github.com/Jeremiah-Akpor/Python_Projects.git
-        cd master-python-projects
+        cd Python_Projects
         git submodule update --remote MadLibs  # Replace 'madlibs' with the correct submodule path if different
         git add MadLibs  # Replace 'madlibs' with the correct submodule path if different
         git commit -m "Auto-update MadLibs submodule"
