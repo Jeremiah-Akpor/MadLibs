@@ -1,5 +1,5 @@
 "A class to represent a Mad Libs story."
-from custom_exception import StoryException
+from .custom_exception import StoryException
 
 
 class Story:
@@ -111,3 +111,16 @@ class Story:
             raise StoryException(
                 f"the number of paragraph is {self.num_of_paragraph}")
         return self.input_of_paragraph[num]
+
+    def print_story(self):
+        """Print the story with the user inputs."""
+        if not self.has_paragraph:
+            raise StoryException(
+                "The story does not contain any paragraph")
+        if not self.has_input:
+            raise StoryException(
+                "The paragraphs does not contain any user input")
+        print()
+        print(self.title)
+        for _, paragraph in self.paragraphs.items():
+            print(paragraph)

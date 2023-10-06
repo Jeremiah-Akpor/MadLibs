@@ -2,7 +2,7 @@
 import constant as cons
 from story import Story
 
-mysterious_forest = Story("The Mysterious Forest", 2)
+mysterious_forest = Story("     The Mysterious Forest", 2)
 
 inputs_1 = [
     cons.ADJECTIVE_1,
@@ -55,6 +55,5 @@ mysterious_forest.set_paragraph(2, paragraph_2)
 mysterious_forest.set_input(1, inputs_1)
 mysterious_forest.set_input(2, inputs_2)
 
-print(mysterious_forest.get_title())
-print(mysterious_forest.get_paragraph(1))
-print(mysterious_forest.get_paragraph(2))
+# TODO: remove this
+mysterious_forest.print_story()
