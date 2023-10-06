@@ -1,5 +1,6 @@
 "A class to represent a Mad Libs story."
-from .custom_exception import StoryException
+# pylint: disable=import-error
+from custom_exception import StoryException
 
 
 class Story:

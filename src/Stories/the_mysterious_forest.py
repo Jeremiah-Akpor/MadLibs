@@ -1,4 +1,5 @@
 """The Mysterious Forest"""
+# pylint: disable=import-error
 import constant as cons
 from story import Story
 
