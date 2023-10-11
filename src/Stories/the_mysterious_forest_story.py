@@ -56,5 +56,5 @@ mysterious_forest.set_paragraph(2, paragraph_2)
 mysterious_forest.set_input(1, inputs_1)
 mysterious_forest.set_input(2, inputs_2)
 
-# TODO: remove this
+
 mysterious_forest.print_story()

@@ -1,5 +1,10 @@
 {
-  "cSpell.words": ["Ikenna", "Okeke", "spellbook"],
+  "cSpell.words": [
+    "Ikenna",
+    "levelname",
+    "Okeke",
+    "spellbook"
+  ],
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
