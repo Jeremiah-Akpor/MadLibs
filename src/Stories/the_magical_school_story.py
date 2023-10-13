@@ -1,7 +1,7 @@
 """The Magical School"""
 # pylint: disable=import-error
-from story import Story
-import constant as cons
+from .story import Story
+from . import constant as cons
 
 
 the_magical_school = Story("     The Magical School", 2)
@@ -49,4 +49,4 @@ the_magical_school.set_paragraph(2, paragraph_2)
 the_magical_school.set_input(1, inputs_1)
 the_magical_school.set_input(2, inputs_2)
 
-the_magical_school.print_story()
+# the_magical_school.print_story()

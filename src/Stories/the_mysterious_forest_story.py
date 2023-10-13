@@ -1,9 +1,8 @@
 """The Mysterious Forest"""
-# pylint: disable=import-error
-import constant as cons
-from story import Story
+from . import constant as cons
+from .story import Story
 
-mysterious_forest = Story("     The Mysterious Forest", 2)
+the_mysterious_forest = Story("     The Mysterious Forest", 2)
 
 inputs_1 = [
     cons.ADJECTIVE_1,
@@ -51,10 +50,10 @@ paragraph_2 = (
     f"ever after."
 )
 
-mysterious_forest.set_paragraph(1, paragraph_1)
-mysterious_forest.set_paragraph(2, paragraph_2)
-mysterious_forest.set_input(1, inputs_1)
-mysterious_forest.set_input(2, inputs_2)
+the_mysterious_forest.set_paragraph(1, paragraph_1)
+the_mysterious_forest.set_paragraph(2, paragraph_2)
+the_mysterious_forest.set_input(1, inputs_1)
+the_mysterious_forest.set_input(2, inputs_2)
 
 
-mysterious_forest.print_story()
+# the_mysterious_forest.print_story()

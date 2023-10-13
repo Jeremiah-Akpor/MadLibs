@@ -1,6 +1,6 @@
 import unittest
-from story import Story
-from custom_exception import StoryException
+from .story import Story
+from .custom_exception import StoryException
 
 
 class TestStory(unittest.TestCase):

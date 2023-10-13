@@ -1,7 +1,7 @@
 """ The Great Race"""
-# pylint: disable=import-error
-from story import Story
-import constant as cons
+
+from . import constant as cons
+from .story import Story
 
 the_great_race = Story(" The Great Race", 2)
 
@@ -51,4 +51,4 @@ the_great_race.set_paragraph(2, paragraph_2)
 the_great_race.set_input(1, inputs_1)
 the_great_race.set_input(2, inputs_2)
 
-the_great_race.print_story()
+# the_great_race.print_story()

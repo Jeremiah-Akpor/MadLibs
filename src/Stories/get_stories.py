@@ -3,8 +3,7 @@ This module contains the function to get the stories from
 the stories folder. """
 import glob
 import logging
-# pylint: disable=import-error
-from custom_exception import StoryException
+from .custom_exception import StoryException
 
 # Get the logger
 logging.basicConfig(
@@ -35,6 +34,6 @@ def get_stories():
     except StoryException as e:
         logging.error("An error occurred while collecting stories: %s", e)
         return []
-    
+
 
 get_stories()

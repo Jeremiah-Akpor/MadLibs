@@ -1,7 +1,6 @@
 """ The Space Voyage """
-# pylint: disable=import-error
-import constant as cons
-from story import Story
+from . import constant as cons
+from .story import Story
 
 the_space_voyage = Story("     The Space Voyage", 2)
 
@@ -51,4 +50,4 @@ the_space_voyage.set_paragraph(2, paragraph_2)
 the_space_voyage.set_input(1, inputs_1)
 the_space_voyage.set_input(2, inputs_2)
 
-the_space_voyage.print_story()
+# the_space_voyage.print_story()

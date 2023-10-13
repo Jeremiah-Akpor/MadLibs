@@ -1,99 +1,99 @@
 """Contains all constant in the stories"""
 
 # Adjectives
-ADJECTIVE_1 = "___"
-ADJECTIVE_2 = "___"
-ADJECTIVE_3 = "___"
-ADJECTIVE_4 = "___"
-ADJECTIVE_5 = "___"
+ADJECTIVE_1 = "ADJECTIVE_1"
+ADJECTIVE_2 = "ADJECTIVE_2"
+ADJECTIVE_3 = "ADJECTIVE_3"
+ADJECTIVE_4 = "ADJECTIVE_4"
+ADJECTIVE_5 = "ADJECTIVE_5"
 
 # Adverbs
-ADVERB_1 = "___"
+ADVERB_1 = "ADVERB_1"
 
 # Animals
-ANIMAL_1 = "___"
+ANIMAL_1 = "ANIMAL_1"
 
 # Clothings
-CLOTHING_1 = "___"
+CLOTHING_1 = "CLOTHING_1"
 
 # Colors
-COLOR_1 = "___"
+COLOR_1 = "COLOR_1"
 
 # Creature
-CREATURE_1 = "___"
+CREATURE_1 = "CREATURE_1"
 
 # Elements
-ELEMENT_1 = "___"
+ELEMENT_1 = "ELEMENT_1"
 
 # Emotions
-EMOTION_1 = "___"
+EMOTION_1 = "EMOTION_1"
 
 # Events
-EVENT_1 = "___"
+EVENT_1 = "EVENT_1"
 
 # Foods
-FOOD_1 = "___"
+FOOD_1 = "FOOD_1"
 
 # Gifts
-GIFT_1 = "___"
+GIFT_1 = "GIFT_1"
 
 # Ingredients
-INGREDIENT_1 = "___"
+INGREDIENT_1 = "INGREDIENT_1"
 
 # Magic words
-MAGIC_WORD_1 = "___"
-MAGIC_WORD_2 = "___"
+MAGIC_WORD_1 = "MAGIC_WORD_1"
+MAGIC_WORD_2 = "MAGIC_WORD_2"
 
 # Monsters
-MONSTER_1 = "___"
+MONSTER_1 = "MONSTER_1"
 
 # Names
-NAME_1 = "___"
-NAME_2 = "___"
+NAME_1 = "NAME_1"
+NAME_2 = "NAME_2"
 
 # Nouns
-NOUN_1 = "___"
+NOUN_1 = "NOUN_1"
 
 # Numbers
-NUMBER_1 = "___"
+NUMBER_1 = "NUMBER_1"
 
 # Objects
-OBJECT_1 = "___"
+OBJECT_1 = "OBJECT_1"
 
 # Obstacles
-OBSTACLE_1 = "___"
-OBSTACLE_2 = "___"
+OBSTACLE_1 = "OBSTACLE_1"
+OBSTACLE_2 = "OBSTACLE_2"
 
 # Phenomenon
-PHENOMENON_1 = "___"
+PHENOMENON_1 = "PHENOMENON_1"
 
 # Places
-PLACE_1 = "___"
+PLACE_1 = "PLACE_1"
 
 # Planet
-PLANET_1 = "___"
+PLANET_1 = "PLANET_1"
 
 # Prize
-PRIZE_1 = "___"
+PRIZE_1 = "PRIZE_1"
 
 # Professions
-PROFESSION_1 = "___"
+PROFESSION_1 = "PROFESSION_1"
 
 # Ship Name
-SHIP_NAME_1 = "___"
+SHIP_NAME_1 = "SHIP_NAME_1"
 
 # Sounds
-SOUND_1 = "___"
+SOUND_1 = "SOUND_1"
 
 # Time
-TIME_1 = "___"
+TIME_1 = "TIME_1"
 
 # Tools
-TOOL_1 = "___"
+TOOL_1 = "TOOL_1"
 
 # Verbs
-VERB_1 = "___"
+VERB_1 = "VERB_1"
 
 # Vehicles
-VEHICLE_1 = "___"
-VEHICLE_2 = "___"
+VEHICLE_1 = "VEHICLE_1"
+VEHICLE_2 = "VEHICLE_2"
