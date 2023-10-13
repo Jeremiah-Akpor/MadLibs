@@ -170,3 +170,155 @@
 2023-10-13 09:34:26,523 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
 2023-10-13 09:34:26,523 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
 2023-10-13 09:34:26,523 - INFO - Number of stories: 4
+2023-10-13 09:35:26,912 - INFO - Starting to collect stories.
+2023-10-13 09:35:26,913 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 09:35:26,913 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 09:35:26,913 - INFO - Number of stories: 4
+2023-10-13 09:35:26,915 - INFO - Starting to collect stories.
+2023-10-13 09:35:26,916 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 09:35:26,916 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 09:35:26,916 - INFO - Number of stories: 4
+2023-10-13 19:03:33,733 - INFO - Starting to collect stories.
+2023-10-13 19:03:33,734 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 19:03:33,735 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 19:03:33,735 - INFO - Number of stories: 4
+2023-10-13 19:03:33,738 - INFO - Starting to collect stories.
+2023-10-13 19:03:33,739 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 19:03:33,739 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 19:03:33,739 - INFO - Number of stories: 4
+2023-10-13 19:51:54,762 - INFO - Starting to collect stories.
+2023-10-13 19:51:54,763 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 19:51:54,764 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 19:51:54,764 - INFO - Number of stories: 4
+2023-10-13 19:51:54,774 - INFO - Starting to collect stories.
+2023-10-13 19:51:54,775 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 19:51:54,776 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 19:51:54,776 - INFO - Number of stories: 4
+2023-10-13 19:52:22,925 - INFO - Starting to collect stories.
+2023-10-13 19:52:22,926 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 19:52:22,927 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 19:52:22,927 - INFO - Number of stories: 4
+2023-10-13 19:52:22,928 - INFO - Starting to collect stories.
+2023-10-13 19:52:22,928 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 19:52:22,928 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 19:52:22,928 - INFO - Number of stories: 4
+2023-10-13 19:52:59,707 - INFO - Starting to collect stories.
+2023-10-13 19:52:59,708 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 19:52:59,708 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 19:52:59,708 - INFO - Number of stories: 4
+2023-10-13 19:52:59,709 - INFO - Starting to collect stories.
+2023-10-13 19:52:59,709 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 19:52:59,709 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 19:52:59,710 - INFO - Number of stories: 4
+2023-10-13 20:13:33,608 - INFO - Starting to collect stories.
+2023-10-13 20:13:33,610 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:13:33,610 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:13:33,611 - INFO - Number of stories: 4
+2023-10-13 20:13:33,621 - INFO - Starting to collect stories.
+2023-10-13 20:13:33,622 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:13:33,622 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:13:33,622 - INFO - Number of stories: 4
+2023-10-13 20:16:37,929 - INFO - Starting to collect stories.
+2023-10-13 20:16:37,930 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:16:37,930 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:16:37,930 - INFO - Number of stories: 4
+2023-10-13 20:16:37,933 - INFO - Starting to collect stories.
+2023-10-13 20:16:37,934 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:16:37,934 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:16:37,934 - INFO - Number of stories: 4
+2023-10-13 20:27:15,712 - INFO - Starting to collect stories.
+2023-10-13 20:27:15,712 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:27:15,712 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:27:15,713 - INFO - Number of stories: 4
+2023-10-13 20:27:15,714 - INFO - Starting to collect stories.
+2023-10-13 20:27:15,714 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:27:15,714 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:27:15,714 - INFO - Number of stories: 4
+2023-10-13 20:28:13,565 - INFO - Starting to collect stories.
+2023-10-13 20:28:13,566 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:28:13,566 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:28:13,566 - INFO - Number of stories: 4
+2023-10-13 20:28:13,567 - INFO - Starting to collect stories.
+2023-10-13 20:28:13,567 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:28:13,567 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:28:13,567 - INFO - Number of stories: 4
+2023-10-13 20:38:09,844 - INFO - Starting to collect stories.
+2023-10-13 20:38:09,845 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:38:09,845 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:38:09,845 - INFO - Number of stories: 4
+2023-10-13 20:38:09,847 - INFO - Starting to collect stories.
+2023-10-13 20:38:09,847 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:38:09,847 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:38:09,848 - INFO - Number of stories: 4
+2023-10-13 20:40:14,437 - INFO - Starting to collect stories.
+2023-10-13 20:40:14,438 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:40:14,438 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:40:14,438 - INFO - Number of stories: 4
+2023-10-13 20:40:14,441 - INFO - Starting to collect stories.
+2023-10-13 20:40:14,442 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:40:14,442 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:40:14,443 - INFO - Number of stories: 4
+2023-10-13 20:42:16,105 - INFO - Starting to collect stories.
+2023-10-13 20:42:16,106 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:42:16,106 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:42:16,106 - INFO - Number of stories: 4
+2023-10-13 20:42:16,107 - INFO - Starting to collect stories.
+2023-10-13 20:42:16,108 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:42:16,108 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:42:16,108 - INFO - Number of stories: 4
+2023-10-13 20:43:32,598 - INFO - Starting to collect stories.
+2023-10-13 20:43:32,600 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:43:32,600 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:43:32,600 - INFO - Number of stories: 4
+2023-10-13 20:43:32,601 - INFO - Starting to collect stories.
+2023-10-13 20:43:32,601 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:43:32,602 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:43:32,602 - INFO - Number of stories: 4
+2023-10-13 20:44:32,377 - INFO - Starting to collect stories.
+2023-10-13 20:44:32,378 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:44:32,379 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:44:32,379 - INFO - Number of stories: 4
+2023-10-13 20:44:32,381 - INFO - Starting to collect stories.
+2023-10-13 20:44:32,382 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:44:32,382 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:44:32,382 - INFO - Number of stories: 4
+2023-10-13 20:45:01,782 - INFO - Starting to collect stories.
+2023-10-13 20:45:01,783 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:45:01,783 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:45:01,783 - INFO - Number of stories: 4
+2023-10-13 20:45:01,784 - INFO - Starting to collect stories.
+2023-10-13 20:45:01,785 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:45:01,785 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:45:01,785 - INFO - Number of stories: 4
+2023-10-13 20:45:30,805 - INFO - Starting to collect stories.
+2023-10-13 20:45:30,807 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:45:30,807 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:45:30,807 - INFO - Number of stories: 4
+2023-10-13 20:45:30,808 - INFO - Starting to collect stories.
+2023-10-13 20:45:30,808 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:45:30,808 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:45:30,808 - INFO - Number of stories: 4
+2023-10-13 20:45:41,950 - INFO - Starting to collect stories.
+2023-10-13 20:45:41,951 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:45:41,951 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:45:41,951 - INFO - Number of stories: 4
+2023-10-13 20:45:41,952 - INFO - Starting to collect stories.
+2023-10-13 20:45:41,952 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:45:41,952 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:45:41,952 - INFO - Number of stories: 4
+2023-10-13 20:46:04,990 - INFO - Starting to collect stories.
+2023-10-13 20:46:04,991 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:46:04,991 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:46:04,991 - INFO - Number of stories: 4
+2023-10-13 20:46:04,992 - INFO - Starting to collect stories.
+2023-10-13 20:46:04,992 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:46:04,993 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:46:04,993 - INFO - Number of stories: 4
+2023-10-13 20:52:40,326 - INFO - Starting to collect stories.
+2023-10-13 20:52:40,326 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:52:40,326 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:52:40,326 - INFO - Number of stories: 4
+2023-10-13 20:52:40,327 - INFO - Starting to collect stories.
+2023-10-13 20:52:40,328 - INFO - Found story files: ['src/stories\\the_great_race_story.py', 'src/stories\\the_magical_school_story.py', 'src/stories\\the_mysterious_forest_story.py', 'src/stories\\the_space_voyage_story.py']
+2023-10-13 20:52:40,328 - INFO - Successfully collected stories: ['the_great_race', 'the_magical_school', 'the_mysterious_forest', 'the_space_voyage']
+2023-10-13 20:52:40,328 - INFO - Number of stories: 4

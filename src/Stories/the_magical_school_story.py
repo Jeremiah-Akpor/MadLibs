@@ -1,5 +1,4 @@
 """The Magical School"""
-# pylint: disable=import-error
 from .story import Story
 from . import constant as cons
 
@@ -20,6 +19,7 @@ inputs_1 = [
     cons.ADJECTIVE_3
 ]
 
+
 paragraph_1 = (
     f"In a {cons.ADJECTIVE_1} school for aspiring {cons.NOUN_1}, "
     f"a young {cons.PROFESSION_1}  named \n{cons.NAME_1} discovered"
@@ -31,14 +31,18 @@ paragraph_1 = (
 )
 
 inputs_2 = [
-    cons.ADJECTIVE_4
-]
+    cons.ADJECTIVE_4,
+    cons.INGREDIENT_1,
+    cons.MAGIC_WORD_2,
+    cons.EMOTION_1,
+    cons.VERB_1,
+    cons.ADJECTIVE_5]
 
 paragraph_2 = (
     f"The duo then found a {cons.ADJECTIVE_4} potion recipe. "
     f"After gathering all \nthe {cons.INGREDIENT_1} and "
     f"chanting the {cons.MAGIC_WORD_2}, they took a sip. To "
-    f"their {cons.EMOTION_1}, \ntheir {cons.EMOTION_1}, they"
+    f"their {cons.EMOTION_1}, \nthey"
     f" gained the ability to {cons.VERB_1}. They became the \n"
     f"talk of the school  and went on to have many more "
     f"{cons.ADJECTIVE_5} adventures."

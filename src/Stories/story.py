@@ -62,12 +62,7 @@ class Story:
         Parameters:
             key (int): to identify the paragraph
             new_paragraph (str): content of new paragraph"""
-        if not isinstance(key, int):
-            raise TypeError("key should be an integer")
-        if not isinstance(new_paragraph, str):
-            raise TypeError("new_paragraph should be a string")
-        if key not in self.paragraphs and \
-           (key > self.num_of_paragraph or key < 1):
+        if key > self.num_of_paragraph or key < 1:
             raise StoryException(
                 f"The number of paragraphs is {self.num_of_paragraph}")
         self.paragraphs[key] = new_paragraph
@@ -82,9 +77,7 @@ class Story:
         if key not in self.paragraphs:
             raise StoryException(
                 f"Paragraph '{key}' doesn't exist."
-                f"Please set the paragraph first")
-        if key not in self.input_of_paragraph:
-            self.input_of_paragraph[key] = []
+                " Please set the paragraph first")
         self.input_of_paragraph[key] = new_inputs
         self.has_input = True
 
@@ -96,31 +89,43 @@ class Story:
         """Return the paragraph of the story."""
         if not self.has_paragraph:
             raise StoryException("The story does not contain any paragraph")
-        if num not in self.paragraphs:
-            raise StoryException(
-                f"the number of paragraph is {self.num_of_paragraph}")
-        return self.paragraphs[num]
+        return self.paragraphs.get(num, "Paragraph not found")
 
     def get_inputs(self, num):
         """Return the list of inputs depending
         on the paragraph in the story"""
         if not self.has_input:
             raise StoryException(
-                "The paragraphs does not contain any user input")
-        if num not in self.paragraphs:
-            raise StoryException(
-                f"the number of paragraph is {self.num_of_paragraph}")
-        return self.input_of_paragraph[num]
+                "The paragraphs do not contain any user input")
+        return self.input_of_paragraph.get(num, [])
+
+    def update_story(self, paragraph_num, user_inputs):
+        """
+            Update a specific paragraph in the story with user-provided inputs.
+
+            Parameters:
+            - paragraph_num (int): The number of the paragraph to update.
+            - user_inputs (list): A list of user inputs to replace
+            placeholders in the paragraph.
+
+            Raises:
+            - StoryException: If the paragraph number does not exist.
+        """
+        if paragraph_num not in self.paragraphs:
+            raise StoryException(f"Paragraph {paragraph_num} does not exist")
+
+        paragraph = self.paragraphs[paragraph_num]
+        placeholders = self.input_of_paragraph.get(paragraph_num, [])
+
+        for i, placeholder in enumerate(placeholders):
+            paragraph = paragraph.replace(placeholder, user_inputs[i])
+
+        self.paragraphs[paragraph_num] = paragraph
 
     def print_story(self):
         """Print the story with the user inputs."""
-        if not self.has_paragraph:
-            raise StoryException(
-                "The story does not contain any paragraph")
-        if not self.has_input:
-            raise StoryException(
-                "The paragraphs does not contain any user input")
-        print()
+        if not self.has_paragraph or not self.has_input:
+            raise StoryException("The story is incomplete")
         print(self.title)
-        for _, paragraph in self.paragraphs.items():
-            print(paragraph)
+        for num in range(1, self.num_of_paragraph + 1):
+            print(self.get_paragraph(num))
